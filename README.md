@@ -28,18 +28,18 @@ node main.js
 
 La clase `Block` representa cada bloque de la cadena y contiene los siguientes atributos:
 
--`index`: El índice del bloque en la cadena.
--`timestamp`: La marca de tiempo en que se creó el bloque.
--`data`: Los datos que el bloque almacena (pueden ser transacciones, mensajes, etc.).
--`previousHash`: El hash del bloque anterior en la cadena.
--`hash`: El hash calculado del bloque actual.
+- `index`: El índice del bloque en la cadena.
+- `timestamp`: La marca de tiempo en que se creó el bloque.
+- `data`: Los datos que el bloque almacena (pueden ser transacciones, mensajes, etc.).
+- `previousHash`: El hash del bloque anterior en la cadena.
+- `hash`: El hash calculado del bloque actual.
 
 La clase `Blockchain` es responsable de crear y mantener la cadena de bloques. Contiene los siguientes métodos:
 
--`createGenesisBlock()`: Crea el bloque de génesis, el primer bloque de la cadena.
--`getLastetBlock()`: Obtiene el último bloque agregado a la cadena.
--`addBlock(newBlock)`: Agrega un nuevo bloque a la cadena después de realizar las verificaciones necesarias.
--`isChainValid()`: Verifica la integridad de la cadena asegurándose de que los bloques no se hayan modificado.
+- `createGenesisBlock()`: Crea el bloque de génesis, el primer bloque de la cadena.
+- `getLastetBlock()`: Obtiene el último bloque agregado a la cadena.
+- `addBlock(newBlock)`: Agrega un nuevo bloque a la cadena después de realizar las verificaciones necesarias.
+- `isChainValid()`: Verifica la integridad de la cadena asegurándose de que los bloques no se hayan modificado.
 
 ## Licencia
 Este proyecto está bajo la licencia MIT.
