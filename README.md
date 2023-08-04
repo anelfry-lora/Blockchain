@@ -1,6 +1,6 @@
 # Blockchain en JavaScript
 
-Este proyecto implementa una simple cadena de bloques (blockchain) utilizando JavaScript. Se ha utilizado la librería cryptoJs para funciones criptográficas como la función hash SHA256.
+Este proyecto implementa una simple cadena de bloques (blockchain) utilizando JavaScript. Se ha utilizado la librería `cryptoJs` para funciones criptográficas como la función hash SHA256.
 
 
 ## Instalación
@@ -11,7 +11,7 @@ Para ejecutar este proyecto, asegúrate de tener Node.js instalado en tu sistema
 npm install
 ```
 
-Asegúrate de tener la librería cryptoJs instalada. Si no la tienes, puedes instalarla utilizando el siguiente comando:
+Asegúrate de tener la librería `cryptoJs` instalada. Si no la tienes, puedes instalarla utilizando el siguiente comando:
 
 ```bash
 npm install --save crypto-js
@@ -21,7 +21,7 @@ npm install --save crypto-js
 Para ejecutar el código y ver la cadena de bloques en funcionamiento, utiliza el siguiente comando:
 
 ```bash 
-node main.js
+npm run dev
 ```
 
 ## Funcionamiento
@@ -42,4 +42,4 @@ La clase `Blockchain` es responsable de crear y mantener la cadena de bloques. C
 - `isChainValid()`: Verifica la integridad de la cadena asegurándose de que los bloques no se hayan modificado.
 
 ## Licencia
-Este proyecto está bajo la licencia MIT.
+Este proyecto está bajo la licencia [MIT](https://choosealicense.com/licenses/mit/).

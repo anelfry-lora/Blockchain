@@ -1,4 +1,4 @@
-import Block from './block';
+import Block  from './block.js';
 
 export default class Blockchain {
     constructor() {
@@ -9,12 +9,12 @@ export default class Blockchain {
         return new Block(0, '08/03/2023', "Genessis block 😁", '0');
     }
 
-    getLastetBlok() {
+    getLastetBlock() {
         return this.chain[this.chain.length - 1];
     }
 
     addBlock(newBlock) {
-        newBlock.previousHash = this.getLastetBlok().hash;
+        newBlock.previousHash = this.getLastetBlock().hash;
         newBlock.hash = newBlock.calculateHash();
         this.chain.push(newBlock);
     }

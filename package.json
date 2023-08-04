@@ -1,4 +1,12 @@
 {
+  "name": "blockchain-demo",
+  "version": "1.0.0",
+  "description": "Simple blockchain demo",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --experimental-modules src/main.js"
+  },
   "dependencies": {
     "crypto-js": "^4.1.1"
   }
